@@ -20,7 +20,7 @@ submitCityBtn.addEventListener("click", () => {
       desc.innerHTML = data["weather"][0]["description"];
 
       let celsiusValue = Math.round(data["main"]["temp"] - 273.15);
-      temp.innerHTML = celsiusValue;
+      temp.innerHTML = `${celsiusValue}°`;
 
       inputCityName.value = "";
     })
