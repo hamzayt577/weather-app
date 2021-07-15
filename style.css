@@ -40,7 +40,7 @@ body {
   background: #e7e7e7;
   height: 40vh;
   margin: 50px auto;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .info-card p {
